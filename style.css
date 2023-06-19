@@ -1,0 +1,29 @@
+#gameContainer{
+  text-align: center;
+}
+
+#gameBoard{
+  border: 3px solid black;
+}
+
+#score{
+  font-family: consolas;
+  font-size: 50px;
+}
+
+#resetBtn{
+  
+  font-family: consolas;
+  font-size: 25px;
+  width: 150px;
+  height: 45px;
+  border-radius: 25px;
+  border-color: aqua;
+  cursor: pointer;
+  background-color: rgb(186, 186, 186);
+  transition: 0.1s;
+}
+
+#resetBtn:active{
+  opacity: 0.5;
+}
